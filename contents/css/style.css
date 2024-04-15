@@ -11,3 +11,40 @@
     --color-surface-2: #1b2733;
     --color-surface-3: #2c3f52;
 }
+
+body {
+    background-color: green;
+}
+
+nav {
+    background-color: red;
+}
+
+.cover-content-container {
+    background-color: aqua;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.action-container {
+    background-color: blueviolet;
+}
+
+.widgets-section-container {
+    background-color: cadetblue;
+}
+
+.summary {
+    background-color: beige;
+}
+
+footer {
+    background-color: yellow;
+}
