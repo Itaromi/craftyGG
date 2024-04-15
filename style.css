@@ -4,3 +4,12 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+:root {
+    --background-color: #000;
+    --color-surface-1: #0f1923;
+    --color-surface-2: #1b2733;
+    --color-surface-3: #2c3f52;
+}
+
+/*https://tracker.gg/valorant/leaderboards/ranked/all/default?page=1&region=na&act=22d10d66-4d2a-a340-6c54-408c7bd53807
