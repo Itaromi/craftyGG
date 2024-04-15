@@ -18,10 +18,7 @@ body {
 
 nav {
     background-color: red;
-}
-
-.cover-content-container {
-    background-color: aqua;
+    height: 3em;
 }
 
 nav li {
@@ -33,18 +30,52 @@ nav a {
     color: white;
 }
 
-.action-container {
+.cover-content-container {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+}
+
+.cover-content-container ul {
+    display: flex;
+}
+
+.cover-content-container li {
+    display: flex;
+    
+}
+
+.cover-content-container input {
+    display: flex;
+}
+
+.card-container {
+    display: flex;
+}
+
+.alternate-container {
+    background-color: chocolate;
+    height: 5em;
+}
+
+.action {
     background-color: blueviolet;
+    height: 4em;
 }
 
 .widgets-section-container {
     background-color: cadetblue;
+    height: 30em;
 }
 
 .summary {
     background-color: beige;
+    height: 5em;
 }
 
 footer {
     background-color: yellow;
+    height: 15em;
 }
