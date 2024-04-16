@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-color: rgba(255, 255, 255, .15) var(--color-surface-1);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -32,10 +35,13 @@ nav a {
 
 .cover-content-container {
     background-color: aqua;
+    padding: 2.5rem;
+    margin: 0 auto;
     display: flex;
+    max-width: 1280px;
     justify-content: center;
     align-items: center;
-    height: 30em;
+    min-height: 28.125rem;
 }
 
 .cover-content-container ul {
@@ -43,16 +49,39 @@ nav a {
 }
 
 .cover-content-container li {
-    display: flex;
+    background-color: var(--color-surface-2);
+    box-shadow: 0 0.5rem 0.5rem #00000029;
+    border-radius: .5rem 0 0 .5rem;
+    list-style-type: none;
     
 }
 
-.cover-content-container input {
-    display: flex;
+.cover-content-container.li img {
+    width: 150px;
+    height: 150px;
 }
 
+.cover-content-container input {
+    width: 100%;
+    border: none;
+    border-radius: 0 .5rem .5rem 0;
+    box-shadow: 0 0.5rem 0.5rem #00000029;
+    font-size: 1rem;
+    padding: 1.5rem;
+    height: 4rem;
+    opacity: .9;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    appearance: none;
+}
 .card-container {
     display: flex;
+    margin: 50px;
 }
 
 .alternate-container {
